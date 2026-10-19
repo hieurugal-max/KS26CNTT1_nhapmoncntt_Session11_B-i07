@@ -1,0 +1,32 @@
+PHẦN 1: PHÂN TÍCH LỖI
+1. Vì sao mục lục rỗng & Lỗi 7 dòng:
+Cơ chế: Word chỉ quét các dòng được gán nhãn Heading.
+Lỗi: Cả 7 dòng đều ở dạng Normal (văn bản thường), chỉ được chỉnh chữ to/in đậm bằng tay (Manual Formatting) nên Word bỏ qua hết.
+1. và 2.    : Thiếu Heading 1
+1.1., 1.2., 2.1.     : Thiếu Heading 2
+2.1.1.    : Thiếu Heading 3 (cấp con của 2.1)
+3.   : Thiếu Heading 1 (văn bản thô)
+
+
+2. Tác hại khi gán nhầm cấp Heading:
+Làm thụt đầu dòng bị sai: Heading càng nhỏ càng thụt vào sâu. Nhầm cấp sẽ khiến các mục bị xếp bằng hàng hoặc thụt lùi sai logic, làm người đọc hiểu nhầm cơ cấu tổ chức
+
+
+PHẦN 2: SỬA LỖI và NGHIỆM THU
+3. Các bước sửa cấu trúc & Tạo mục lục:
+Bước 1 (Gán Heading): Đặt con trỏ tại từng dòng và bấm phím tắt:
+1. Thông tin chung...  Ctrl + Alt + 1
+1.1. Tên hội nghị  Ctrl + Alt + 2
+1.2. Thời gian & địa điểm  Ctrl + Alt + 2
+2. Cơ cấu ban tổ chức  Ctrl + Alt + 1
+2.1. Ban Nội dung  Ctrl + Alt + 2
+2.1.1. Tiểu ban Kỹ thuật  Ctrl + Alt + 3
+3. Lịch trình sự kiện  Ctrl + Alt + 1
+     + Bước 2 (Xóa màu cũ): Bôi đen tiêu đề + bấm Ctrl + Space để dọn sạch định dạng thủ công.
+     + Bước 3 (Xuất mục lục): Vào References  Table of Contents  Chọn Automatic Table
+
+
+4. Bẫy số trang & Cách xử lý:
+-Hiện tượng: Mục lục không tự nhảy số trang khi nội dung bị đẩy sang trang khác (từ trang 2 sang trang 4)
+-Cách khắc phục: Click vào mục lục  Bấm phím F9  Chọn Update page numbers only  Click OK
+
